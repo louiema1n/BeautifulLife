@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">美好人生</string>
+    <string name="sport">运动</string>
+    <string name="economics">经济</string>
+    <string name="others">其他</string>
+    <string name="today_walk">今日步行</string>
+</resources>

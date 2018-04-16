@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BeautifulLife</string>
+    <string name="sport">Sport</string>
+    <string name="economics">Economics</string>
+    <string name="others">Others</string>
+    <string name="today_walk">todayWalk</string>
+</resources>
