@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     // title数组
     var title_array: Array<String> = arrayOf()
-    var pagerList: List<AppCompatActivity> = listOf()
+    var pagerList: List<BasePager> = listOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,7 +36,9 @@ class MainActivity : AppCompatActivity() {
                 resources.getString(R.string.others))
         // 初始化pager集合
         pagerList = listOf(
-                SportPager()
+                SportPager(this),
+                EconomicPager(this),
+                OthersPager(this)
         )
     }
 
